@@ -12,3 +12,5 @@ After the explosion, if there are blocks that are floating, they will drop, and 
 more blocks of the same color around it, that bomb will explode, and the player will get extra points.
 
 The level goes up every ten explosions, and the player will gain more points, but the block will drop faster.
+
+You can download it here: https://github.com/Pickle1235/BoomBlock/releases/
