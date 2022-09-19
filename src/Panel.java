@@ -14,7 +14,7 @@ public class Panel extends JPanel implements KeyListener {
     private final static int regularBlockCountsAs = 1;  //How much a regular block counts as toward exploding a bomb.
     private final static int explodeBlockAt = 3;  //How many blocks you need around a bomb before it explodes.
     private final static int previewBlockAmount = 4;
-    private final static int levelUpAt = 15;
+    private final static int levelUpAt = 10;
     private final static double levelUpMultiplierMultiplier = 1.2;
     private final static int maxTickChange = 50;
     private final static int explosionTickMax = 250;
@@ -287,7 +287,7 @@ public class Panel extends JPanel implements KeyListener {
                     chain *= 4;
                 } else {//Nothing else to explode. Add score
                     score += (bombsExploded * 0.25 + 0.75) * scoreMultiplier * chain * blocksExploded;
-                    bombsExplodedThisLevel += bombsExploded;
+                    bombsExplodedThisLevel++;
                     chain = 1;
                     bombsExploded = 0;
                     blocksExploded = 0;
