@@ -13,4 +13,11 @@ more blocks of the same color around it, that bomb will explode, and the player 
 
 The level goes up every ten explosions, and the player will gain more points, but the block will drop faster.
 
+Controls:
+
+Left, right, and down arrow keys move the block.
+Up arrow key drops the block to the bottom.
+Z rotates the block counterclockwise.
+X rotates the block clockwise.
+
 You can download it here: https://github.com/Pickle1235/BoomBlock/releases/
